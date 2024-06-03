@@ -1,0 +1,689 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(image/fondo3.jpg);
+    background-attachment: fixed;
+    overflow-y: scroll;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #660036;;
+    font-size: 20px;
+    text-shadow: 1px 2px 0px #4700504d;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 2px 0%;
+    transition: background-size .3s;
+}
+
+.nav-item:hover, .nav-item:focus {
+    background-size: 2px 100%;
+}
+
+.nav-bar1 {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    margin-top: 0px;
+}
+
+.grid-nav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px;
+}
+
+.corazon {
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+
+h2 {
+    font-family: 'Gistesy', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-right: 15%;
+    margin-top: 0px;
+    text-shadow: 3px 3px 0px #4700504d;
+}
+
+.corazon-logo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-left: 52%;
+    margin-top: -190px;
+    transition: transform;
+    transition-duration: 0.5s;
+}
+
+.corazon-logo:hover {
+    transform: scale(1.3);
+}
+
+.logo {
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.nosotros {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 45%;
+    grid-template-rows: 100px 280px;
+    background: linear-gradient(180deg, #fee6f3, transparent);
+    height: 430px;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+/* .linea {
+    background: #ff007d40;
+    height: 1.5px;
+    width: 600px;
+    margin: auto;
+    margin-top: 180px;
+} */
+
+.sobrenos {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 160px;
+}
+
+p {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+    border: none;
+}
+
+.texto-nos {
+    padding: 10px;
+    /* background: linear-gradient(1deg, #fee6f3, transparent); */
+    margin-top: 30%;
+}
+
+.grid-img {
+    display: grid;
+    grid-template-columns: 200px ;
+    margin-left: 125%;
+}
+
+.img-nn {
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 2px #ff67b275;
+    padding: 1px;
+}
+
+.img-nn:nth-child(1) {
+    margin-left: 200px;
+    height: 120%;
+    width: 100%;
+}
+
+.img-nn:nth-child(2) {
+    margin-top: -30px;
+    height: 170%;
+    width: 100%;
+    margin-left: 20px;
+}
+.img-nn:nth-child(3) {
+    margin-left: 250px;
+    margin-top: -60px;
+    height: 140%;
+    width: 100%;
+}
+
+.linea2 {
+    background: #ff007d40;
+    height: 1.5px;
+    width: 600px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.grid-serv {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: 300px 300px;
+    object-fit: cover;
+}
+
+.img-serv1 {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-serv {
+    margin-left: 24%;
+    margin-top: 70px;
+}
+
+.servicios {
+    display: grid;
+}
+
+.grid-serv-item {
+    margin-left: 10%;
+    border: solid 2px #fff;
+}
+
+.grid-serv-item:nth-child(5) {
+    background: linear-gradient(180deg, #fff, transparent);
+    border: none;
+}
+
+.grid-serv-item:nth-child(4) {
+    background: linear-gradient(180deg, #fff, transparent);
+    border: none;
+}
+
+.grid-serv-item:nth-child(6) {
+    background: linear-gradient(180deg, #fff, transparent);
+    border: none;
+}
+
+.grid-nos {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: 500px;
+    margin-left: 2%;
+}
+
+.grid-item-nos {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 200px 220px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-nos {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    box-shadow: 2px 2px 2px #00000063;
+    border: solid 1px #fe8ac4;
+}
+
+.grid-img-nos {
+    margin-left: 15px;
+}
+
+.text-nos {
+    background: linear-gradient(180deg, #fff, transparent);
+    height: 200%;
+    border-radius: 10px;
+}
+
+.equipo {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.nuestro-equipo {
+    display: flex;
+    margin-left: 38%;
+}
+
+.logo-text {
+    font-size: 75px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+.consul {
+    float: left;
+    margin-left: 38%;
+    margin-top: 70px;
+}
+
+.contacto {
+    float: left;
+    padding: 100px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.grid-circ {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    float: right;
+    margin-top: -250px;
+    margin-right: 100px;
+}
+
+.circulo1 {
+    border-radius: 50%;
+    background-color: #ff48a4;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: -15px;
+    box-shadow: 0px 1px 2px #000;
+}
+
+.circulo2 {
+    border-radius: 50%;
+    background-color: #ea80b5;
+    height: 200px;
+    width: 200px;
+    margin-top: -50px;
+    margin-left: -95px;
+    box-shadow: 0px 1px 2px #000;
+}
+
+.circulo3 {
+    border-radius: 50%;
+    background-color: #bf3fcf;
+    height: 230px;
+    width: 230px;
+    margin-top: -10px;
+    margin-left: -130px;
+    box-shadow: 0px 1px 2px #000;
+}
+
+.img-circulo1 {
+    object-fit: cover;
+    height: 40%;
+    width: 40%;
+    margin-top: 46px;
+    margin-left: 47px;
+    transition: transform;
+    transition-duration: 0.5s;
+}
+
+.img-circulo1:hover {
+    transform: scale(1.1);
+}
+
+.img-circulo2 {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 76px;
+}
+
+.img-circulo3 {
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+    margin-left: 80px;
+}
+
+.mail {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin-top: 60px;
+    margin-left: 22px;
+    font-size: 13px;
+}
+
+.tel {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin-left: 65px;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+.pie {
+    background-color: #ff007d40;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: -8px;
+}
+
+.creditos {
+    margin-left: 48%;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.linea3 {
+    background: #ffa0ce;
+    height: 200px;
+    width: 1px;
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.cont-form {
+    margin-top: 20px;
+}
+
+p.txt-servz {
+    text-align: center;
+    margin-left: 0;
+    padding: 5px;
+}
+
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #800040;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px;
+    z-index: 999;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffafe4;
+}
+#scroll:hover {
+    background-color:#000000cf;
+}
+
+.insta {
+    display: none;
+}
+
+@media(max-width:900px) {
+    header {
+        padding: 0px 30px;
+    }
+
+    .bars {
+        display: block;
+        cursor: pointer;
+        padding: 11px;
+        background: #b5447d;
+        width: 100%;
+        margin-top: -8px;
+        margin-left: -8px;
+    }
+
+    .bars .line {
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+        margin: 6px 0px;
+        margin-top: -1px;
+        border-radius: 2px;
+    }
+
+    .nav-bar {
+        height: 0px;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        width: 106%;
+        background: #b5447d;
+        transition: 0.5s;
+        overflow: hidden;
+        box-shadow: 0 1px 0 #0000008f;
+    }
+    .nav-bar.active {
+        height: 220px;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 0px 31%;
+        text-align: center;
+        transition: 0.5s;
+        line-height: 50px;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 20px;
+        text-shadow: 0px 0px 3px #0f285b;
+        color: white;
+        font-weight: 100;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .corazon {
+        margin-right: -100%;
+        margin-top: -23%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-text {
+        font-size: 60px;
+        margin-left: -50%;
+        margin-top: -35%;
+    }
+
+    .img-flex {
+        margin-left: -130%;
+        margin-top: 80%;
+    }
+
+    .img-nn {
+        display: none;
+    }
+
+    .nosotros {
+        margin-top: 240px;
+        display: block;
+    }
+
+    .sobrenos {
+        margin-left: 20%;
+        margin-top: 252px;
+    }
+
+    h2 {
+        margin-right: 0;
+    }
+    
+    p {
+        margin-left: 0;
+        margin-top: 107px;
+        text-align: center;
+        padding: 1px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .linea2 {
+        margin-top: 20%;
+        width: 180px;
+    }
+
+    .titulo-serv {
+        margin-left: 1%;
+        margin-top: 35px;
+        float: left;
+        font-size: 40px;
+    }
+
+    .grid-serv {
+        display: grid;
+        grid-template-columns: repeat(3, 130px);
+        grid-template-rows: 100px 100px;
+        object-fit: cover;
+        margin-left: -1%;
+    }
+
+    .txt-servz {
+        margin-top: 0;
+        font-size: 9px;
+    }
+
+    .nuestro-equipo {
+        margin-left: 20%;
+        font-size: 50px;
+        margin-top: -30px;
+    }
+
+    .grid-nos {
+        grid-template-columns: repeat(2, 210px);
+        grid-template-rows: 500px;
+        margin-left: 18px;
+    }
+
+    .img-nos {
+        width: 50%;
+    }
+
+    .grid-item-nos {
+        grid-template-columns: 180px;
+        grid-template-rows: 110px 250px;
+        margin-left: -25px;
+    }
+
+    .grid-img-nos {
+        margin-left: 0;
+        margin-top: -40px;
+    }
+
+    .text-nos {
+        font-size: 15px;
+        height: 110%;
+        margin-top: -60%;
+    }
+
+    .consul {
+        float: left;
+        margin-left: 10%;
+    }
+
+    iframe {
+        height: 220px;
+        width: 380px;
+    }
+
+    .circulo3 {
+        margin-top: -72%;
+        margin-left: -51%;
+    }
+
+    .circulo2 {
+        margin-top: -28%;
+        margin-left: -100px;
+        
+    }
+
+    .circulo1 {
+        margin-top: 20px;
+        margin-left: -65px;
+    }
+
+    .circulo1, .circulo2, .circulo3 {
+        background: transparent;
+        box-shadow: none;
+        height: 120px;
+        width: 120px;
+    }
+
+    .img-circulo3 {
+        height: 48px;
+        width: 48px;
+        margin-top: -105%;
+        position: absolute;
+        margin-left: 157%;
+    }
+
+    .grid-circ {
+        margin-top: 20%;
+        margin-right: 67%;
+        width: 12%;
+        grid-template-columns: 200px;
+        grid-template-rows: repeat(3, 100px);
+        position: absolute;
+        margin-left: 22%;
+    }
+
+    .linea3 {
+        display: none;
+    }
+
+    .img-circulo1 {
+        margin-top: -90%;
+        margin-left: 40px;
+        position: absolute;
+        height: 50px;
+        width: 50px;
+    }
+
+    .pie {
+        margin-top: 78%;
+    }
+
+    #scroll {
+        display: none !important;
+    }
+
+    .contacto {
+        margin-top: -18%;
+        margin-left: 5%;
+    }
+
+    .tel {
+        margin-left: 155%;
+        margin-top: 120%;
+        width: 100%;
+    }
+
+    .mail {
+        margin-left: 135%;
+        margin-top: 80%;
+    }
+
+    .img-circulo2 {
+        margin-top: -88%;
+        position: absolute;
+        margin-left: 76px;
+    }
+
+    .insta {
+        display: block;
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        margin-top: 45%;
+        margin-left: 98%;
+        font-size: 13px;
+    }
+
+    .creditos {
+        margin-left: 40%;
+    }
+}
